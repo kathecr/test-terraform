@@ -9,11 +9,11 @@ terraform {
 
 # Configure the GitHub Provider
 provider "github" {
-  token = "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"
+  token = "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"
 }
 
 resource "github_repository" "example" {
-  name        = "example"
+  name        = "example1"
   description = "My awesome codebase"
   visibility = "public"
 }
